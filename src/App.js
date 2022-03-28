@@ -8,14 +8,17 @@ import Message from './component/Message';
 import Counter from './component/Counter';
 import FuctionClick from './component/FuctionClick';
 import ClassClick from './component/ClassClick';
+import EventBind from './component/EventBind';
 
 
 class App extends Component {
 render(){
   return(
-    <div className="App">
-      <FuctionClick />
-      <ClassClick />
+  <div className="App"> 
+
+   <EventBind 測試/>
+   {/* <FuctionClick /> */}
+   {/* <ClassClick />  */}
    {/* <Counter /> */}
    {/* <Message /> */}
    {/* <Greet name="Bruce"  heroName="superman"> 
@@ -31,7 +34,7 @@ render(){
    <Welcome name ="Wanda" heroName="Witch" />
  */}
 
-    </div>
+</div>
   )
 }  
 }
